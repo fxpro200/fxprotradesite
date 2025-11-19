@@ -1,4 +1,18 @@
 .app-header__menu {
-    gap: 0.8rem;
-    padding: 1.25rem 1.25rem 1.25rem 1.5rem;
+    gap: 1.2rem;
+    padding: 0.5rem 2.2rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: var(--navbar-text);
+    border-radius: 6px;
+    transition:
+        background 0.2s,
+        color 0.2s;
+
+    &:hover,
+    &.active {
+        background: var(--navbar-hover);
+        color: var(--brand-gold-light);
+        font-weight: 700;
+    }
 }
